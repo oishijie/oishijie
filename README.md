@@ -210,7 +210,7 @@ $ whoami
 <a href="https://github.com/oishijie"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/oishijie/oishijie"><img src="https://img.shields.io/badge/Profile-0967D2?style=for-the-badge&logo=github&logoColor=white"/></a>
 <a href="https://github.com/oishijie?tab=repositories"><img src="https://img.shields.io/badge/Repositories-2EA44F?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="mailto:your@mail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:admin@cro.cc.cd"><img src="https://img.shields.io/badge/admin%40cro.cc.cd-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <br/><br/>
 
