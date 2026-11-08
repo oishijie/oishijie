@@ -2,15 +2,8 @@ name: Update profile
 
 on:
   schedule:
-    - cron: '20 0 * * *'
+    - cron: '20 0 * * 1'
   workflow_dispatch:
-  push:
-    branches: [main, master]
-    paths:
-      - README.md
-      - profile.json
-      - scripts/update_profile.py
-      - .github/workflows/update-profile.yml
 
 permissions:
   contents: write

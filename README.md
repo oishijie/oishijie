@@ -50,4 +50,4 @@ Astro · C\# · CSS · HTML · JavaScript · Kotlin · Python · TypeScript
 
 <sub>这里既有自己的小工具，也有基于开源项目的定制与二次开发；具体来源与许可证见各仓库。</sub>
 
-<sub>项目数据由 GitHub Actions 每日同步，按公开仓库信息生成，不包含私有仓库。</sub>
+<sub>项目数据由 GitHub Actions 每周同步，按公开仓库信息生成，不包含私有仓库。</sub>
