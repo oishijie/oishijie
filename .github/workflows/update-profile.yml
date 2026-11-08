@@ -1,0 +1,51 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: '20 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - README.md
+      - profile.json
+      - scripts/update_profile.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh public repository data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_profile.py
+
+      - name: Commit changes when needed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Profile is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- README.md
+          git commit -m "chore: sync profile projects"
+          git push

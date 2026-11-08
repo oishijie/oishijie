@@ -1,0 +1,12 @@
+{
+  "username": "oishijie",
+  "featured": [
+    {"name": "Will-do", "fallback_description": "从截图和文字中整理日程、取件码与出行信息的 Android 助手"},
+    {"name": "WinKit", "fallback_description": "基于开源 WinKit 二次开发的 Windows 效率工具箱"},
+    {"name": "SyncText", "fallback_description": "网页间实时文本同步与 WebRTC P2P 文件互传"},
+    {"name": "notes-cf", "fallback_description": "基于 zhaoolee/notes 改造的 Cloudflare 便签服务"},
+    {"name": "meowport-serial", "fallback_description": "零依赖、单文件的 Web Serial 串口调试工具"},
+    {"name": "AutoCheckin", "fallback_description": "免 root、零第三方依赖的 Android 晚归签到工具"}
+  ],
+  "recent_limit": 5
+}
