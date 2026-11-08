@@ -40,7 +40,7 @@ Astro · C\# · CSS · HTML · JavaScript · Kotlin · Python · TypeScript
 
 ---
 
-公开项目 **19** · 累计 Stars **1** · 最近推送 **2026-11-08**
+公开项目 **20** · 累计 Stars **1** · 最近推送 **2026-11-08**
 
 <sub>不含主页仓库；日期为 UTC。语言来自各仓库主语言，不代表熟练程度。</sub>
 
