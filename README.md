@@ -28,19 +28,19 @@
 
 > 按最后推送时间排序，不代表开发进度。
 
-- [SyncClipboardCfServer](https://github.com/oishijie/SyncClipboardCfServer) · 2026-11-08 · Fork
+- [WinKit](https://github.com/oishijie/WinKit) · 2026-11-08
 - [SyncText](https://github.com/oishijie/SyncText) · 2026-11-08
+- [easyread\-customer](https://github.com/oishijie/easyread-customer) · 2026-11-08
 - [Will\-do](https://github.com/oishijie/Will-do) · 2026-11-08
-- [WinKit](https://github.com/oishijie/WinKit) · 2026-11-07
-- [meowport\-serial](https://github.com/oishijie/meowport-serial) · 2026-11-07
+- [yian\-launcher](https://github.com/oishijie/yian-launcher) · 2026-11-08
 
 ## 使用中的语言
 
-Astro · C\# · CSS · HTML · JavaScript · Kotlin · Python · TypeScript
+Astro · C\# · CSS · HTML · JavaScript · Kotlin · Python · Rust · TypeScript
 
 ---
 
-公开项目 **20** · 累计 Stars **1** · 最近推送 **2026-11-08**
+公开项目 **21** · 累计 Stars **1** · 最近推送 **2026-11-08**
 
 <sub>不含主页仓库；日期为 UTC。语言来自各仓库主语言，不代表熟练程度。</sub>
 
